@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #4b6cb7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #182848,
+    #4b6cb7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #182848,
+    #4b6cb7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+input {
+  font-size: 2em;
+  padding: 15px;
+  border-radius: 12px;
+  border: none;
+  color: #333;
+  display: block;
+  width: 100%;
+}
+input:focus {
+  outline: none;
+}
+
+.btn {
+  margin-top: 15px;
+  color: white;
+  background: #192949;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+  border: none;
+  font-size: 2em;
+  padding: 15px;
+  border-radius: 12px;
+  text-transform: uppercase;
+}
+.btn:hover {
+  background: black;
+}
+.btn:focus {
+  outline: none;
+}
